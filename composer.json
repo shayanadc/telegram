@@ -1,0 +1,26 @@
+{
+  "name": "shayanadc/telegram",
+  "description": "a package for telegram api",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shayanadc",
+      "email": "shayanadc@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Shayanadc\\PayamResan\\": "src/"
+    }
+  },
+  "require": {
+    "php" : "^7.0",
+    "ext-pdo" : "*",
+    "ext-pdo_pgsql": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
