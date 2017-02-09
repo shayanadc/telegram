@@ -31,7 +31,7 @@ class TelegramMethod
 
     public function sendPhoto($chatId, $caption, $photo, $params = [])
     {
-        $items = array_merge($params,['chat_id' => $chatId, 'caption' => $caption, 'video' => $photo]);
+        $items = array_merge($params,['chat_id' => $chatId, 'caption' => $caption, 'photo' => $photo]);
         return $this->sendingTelegramMessage("sendPhoto",$items);
     }
 
