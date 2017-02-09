@@ -25,7 +25,7 @@
       <file leaf-file-name="TelegramConnector.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TelegramConnector.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-18.851852">
               <caret line="134" column="40" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="40" />
               <folding />
             </state>
@@ -35,28 +35,18 @@
       <file leaf-file-name="SampleClass.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SampleClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.333333">
+              <caret line="14" column="186" selection-start-line="14" selection-start-column="186" selection-end-line="14" selection-end-column="186" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.054054055">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TelegramMethod.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TelegramMethod.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TelegramMethod.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-50.666668">
-              <caret line="76" column="25" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.9463487">
+              <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -69,9 +59,9 @@
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/TelegramConnector.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/SampleClass.php" />
         <option value="$PROJECT_DIR$/src/TelegramMethod.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -447,34 +437,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TelegramConnector.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="40" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.054054055">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TelegramMethod.php">
+    <entry file="file://$PROJECT_DIR$/src/TelegramConnector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-50.666668">
-          <caret line="76" column="25" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="25" />
+        <state vertical-scroll-proportion="-18.851852">
+          <caret line="134" column="40" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SampleClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="14" column="186" selection-start-line="14" selection-start-column="186" selection-end-line="14" selection-end-column="186" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/TelegramMethod.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.054054055">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.9463487">
+          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
           <folding />
         </state>
       </provider>
