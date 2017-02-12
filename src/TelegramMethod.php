@@ -4,16 +4,30 @@ require 'TelegramConnector.php';
 
 class TelegramMethod
 {
-    public $n;
+    protected $tConnector;
 
-    public function __construct($token)
+    public function __construct()
     {
-        $this->n = new TelegramConnector($token);
+        $this->tConnector = new TelegramConnector(getenv('TOKEN'));
     }
 
     public function sendingTelegramMessage($method, $params = [])
     {
-        return $this->n->exeCURL($method, $params);
+        return $this->tConnector->exeCURL($method, $params);
+    }
+
+    public function getWebHookInfo($params = [])
+    {
+        return $this->sendingTelegramMessage("getWebhookInfo", $params);
+    }
+    public function setWebHook($url, $params = [])
+    {
+        $items = array_merge($params, ['url' => $url]);
+
+        return $this->sendingTelegramMessage("setWebhook", $items);
+    }
+    public function deleteWebHook($params = []){
+        return $this->sendingTelegramMessage("deleteWebhook", $params);
     }
 
     public function getMe($params = [])
@@ -98,6 +112,7 @@ class TelegramMethod
     {
         $forceReply = $this->forceReply($selective);
         $items = array_merge($params, ['chat_id' => $chatId, 'text' => $text, 'reply_markup' => $forceReply]);
+
         return $this->sendingTelegramMessage("sendMessage", $items);
     }
 

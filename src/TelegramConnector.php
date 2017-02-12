@@ -2,7 +2,7 @@
 
 class TelegramConnector
 {
-    public $API_URL;
+    protected $API_URL;
     public function __construct($token)
     {
         $this->API_URL = 'https://api.telegram.org/bot' . $token .'/';
