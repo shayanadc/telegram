@@ -129,9 +129,9 @@ class TelegramConnector
         // http status handler
         $httpCode = intval(curl_getinfo($handle, CURLINFO_HTTP_CODE));
         curl_close($handle);
-        if($httpCode != 200) throw new Exception('200 Http Code');
-        if($httpCode == 401) throw new Exception('400 Http Code');
         $response = json_decode($response);
+        if($httpCode != 200) throw new Exception('Http Code Is Not 200!!');
+        if($httpCode == 401) throw new Exception('400 Http Code!');
         if (isset($response->description)) throw new Exception($this->description);
         return $response;
     }
