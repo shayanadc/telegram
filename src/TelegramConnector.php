@@ -114,7 +114,6 @@ class TelegramConnector
 //        curl_setopt($handle, CURLOPT_TIMEOUT, 60);
 //        curl_setopt($handle, CURLOPT_POSTFIELDS, json_encode($parameters));
 //        curl_setopt($handle, CURLOPT_HTTPHEADER, array("Content-Type: application/json"));
-//
 //        return $this->exec_curl_request($handle);
 //    }
     public function exeCURL($method,$params = []){
